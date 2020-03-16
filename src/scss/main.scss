@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.map {
+  width: 100%;
+  height: 100vh;
+}
+
+.review {
+  color: red;
+
+  &__address {
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+}
+
+.popup {
+  flex-direction: column;
+  max-width: 369px;
+  background: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__address,
+.header__close {
+  flex-basis: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  margin-bottom: 10px;
+}
