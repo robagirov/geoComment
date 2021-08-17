@@ -1,4 +1,4 @@
-# Выпускной проект онлайн школы LoftSchool на курсе Комплексный JavaScript
+# :round_pushpin: Выпускной проект онлайн школы LoftSchool на курсе Комплексный JavaScript
 ## Работа с API Яндекс карт
 
 *npm install* - установить зависимости  
